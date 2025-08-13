@@ -6,7 +6,7 @@ import WalletConnectButton from "@/components/wallet-connect-button"
 
 export default function WhitepaperPage() {
   return (
-    <main className="relative min-h-[100dvh] text-purple-900">
+    <main className="relative min-h-[100dvh] text-cyan-50/90">
       <SectionWrapper
         id="whitepaper-hero"
         className="h-[56vh] min-h-[460px] flex items-center"
@@ -15,7 +15,7 @@ export default function WhitepaperPage() {
         <div className="max-w-3xl">
           <Heading3D text="Whitepaper" />
           <h1 className="sr-only">Whitepaper</h1>
-          <p className="mt-4 text-indigo-900">
+          <p className="mt-4 text-cyan-50/90">
             Explore CVIBE’s mission, token mechanics, and vision for an ocean-sized memetic ecosystem.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -30,11 +30,11 @@ export default function WhitepaperPage() {
       <section className="py-16 md:py-24">
         <div className="container px-4 md:px-6 grid gap-10 md:grid-cols-2">
           <div>
-            <h2 className="text-xl font-semibold text-purple-900">Summary</h2>
-            <p className="mt-3 text-indigo-900">
+            <h2 className="text-xl font-semibold text-cyan-50/90">Summary</h2>
+            <p className="mt-3 text-cyan-50/90">
               CVIBE aligns fair distribution with community incentives. Zero tax, LP locked, and transparent reporting.
             </p>
-            <ul className="mt-4 list-disc pl-5 text-indigo-900 space-y-2">
+            <ul className="mt-4 list-disc pl-5 text-cyan-50/90space-y-2">
               <li>Fair launch and renounced mint</li>
               <li>Clear token utility and roadmap</li>
               <li>Community governance experiments</li>
@@ -64,29 +64,29 @@ export default function WhitepaperPage() {
         <div className="container px-4 md:px-6">
           <div className="py-6">{/* FooterBeach3D component removed */}</div>
           <div className="flex flex-wrap items-center gap-4 py-8 text-sm">
-            <a href="/" className="text-purple-900 hover:underline underline-offset-4">
+            <a href="/" className="text-cyan-50/90 hover:underline underline-offset-4">
               Home
             </a>
-            <a href="/tokenomics" className="text-purple-900 hover:underline underline-offset-4">
+            <a href="/tokenomics" className="text-cyan-50/90 hover:underline underline-offset-4">
               Tokenomics
             </a>
-            <a href="/roadmap" className="text-purple-900 hover:underline underline-offset-4">
+            <a href="/roadmap" className="text-cyan-50/90 hover:underline underline-offset-4">
               Roadmap
             </a>
-            <a href="/faq" className="text-purple-900 hover:underline underline-offset-4">
+            <a href="/faq" className="text-cyan-50/90 hover:underline underline-offset-4">
               FAQ
             </a>
-            <a href="/whitepaper" className="text-purple-900 hover:underline underline-offset-4">
+            <a href="/whitepaper" className="text-cyan-50/90 hover:underline underline-offset-4">
               Whitepaper
             </a>
-            <a href="/partners" className="text-purple-900 hover:underline underline-offset-4">
+            <a href="/partners" className="text-cyan-50/90 hover:underline underline-offset-4">
               Partners
             </a>
-            <a href="/community" className="text-purple-900 hover:underline underline-offset-4">
+            <a href="/community" className="text-cyan-50/90 hover:underline underline-offset-4">
               Community
             </a>
           </div>
-          <div className="flex items-center justify-between border-t border-purple-300/20 py-6 text-xs text-indigo-900">
+          <div className="flex items-center justify-between border-t border-purple-300/20 py-6 text-xs text-cyan-50/90">
             <p>&copy; {new Date().getFullYear()} CVIBE. All rights reserved.</p>
             <p>Made with love and ocean vibes.</p>
           </div>

@@ -7,7 +7,7 @@ import WalletConnectButton from "@/components/wallet-connect-button"
 
 export default function FAQPage() {
   return (
-    <main className="relative min-h-[100dvh] text-purple-900">
+    <main className="relative min-h-[100dvh] text-cyan-50/90">
       {/* Hero */}
       <SectionWrapper
         id="faq-hero"
@@ -17,7 +17,7 @@ export default function FAQPage() {
         <div className="max-w-4xl">
           <Heading3D text="FAQ" className="block" />
           <h1 className="sr-only">FAQ</h1>
-          <p className="mt-4 max-w-2xl mx-auto text-base text-indigo-900 md:text-lg">
+          <p className="mt-4 max-w-2xl mx-auto text-base text-cyan-50/90 md:text-lg">
             Answers to common questions about CVIBE, buying, wallets, and more.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row justify-center">
@@ -39,35 +39,35 @@ export default function FAQPage() {
               className="bg-purple-50/60 backdrop-blur rounded-xl ring-1 ring-purple-300/50 p-2"
             >
               <AccordionItem value="item-1">
-                <AccordionTrigger className="text-purple-900">What is CVIBE?</AccordionTrigger>
-                <AccordionContent className="text-indigo-900">
+                <AccordionTrigger className="text-cyan-50/90">What is CVIBE?</AccordionTrigger>
+                <AccordionContent className="text-cyan-50/90">
                   CVIBE is a meme token focused on community, fair launch mechanics, and transparent tokenomics—
                   celebrating ocean vibes and internet culture.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
-                <AccordionTrigger className="text-purple-900">Is there any tax on trades?</AccordionTrigger>
-                <AccordionContent className="text-indigo-900">
+                <AccordionTrigger className="text-cyan-50/90">Is there any tax on trades?</AccordionTrigger>
+                <AccordionContent className="text-cyan-50/90">
                   CVIBE targets 0% buy/sell tax. Always verify the official contract and announcements.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
-                <AccordionTrigger className="text-purple-900">Where do I find the contract address?</AccordionTrigger>
-                <AccordionContent className="text-indigo-900">
+                <AccordionTrigger className="text-cyan-50/90">Where do I find the contract address?</AccordionTrigger>
+                <AccordionContent className="text-cyan-50/90">
                   We will publish the verified contract on the official site and socials. Use the Copy Contract button
                   on the How to Buy section once available.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
-                <AccordionTrigger className="text-purple-900">Which networks are supported?</AccordionTrigger>
-                <AccordionContent className="text-indigo-900">
+                <AccordionTrigger className="text-cyan-50/90">Which networks are supported?</AccordionTrigger>
+                <AccordionContent className="text-cyan-50/90">
                   CVIBE deploys to a fast, low-fee chain. Check the Tokenomics and Roadmap pages for network details and
                   future plans.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
-                <AccordionTrigger className="text-purple-900">How do I buy CVIBE?</AccordionTrigger>
-                <AccordionContent className="text-indigo-900">
+                <AccordionTrigger className="text-cyan-50/90">How do I buy CVIBE?</AccordionTrigger>
+                <AccordionContent className="text-cyan-50/90">
                   Follow the steps on the How to Buy section of the homepage: get a wallet, fund it, then swap on a
                   supported DEX using the official contract.
                 </AccordionContent>
@@ -91,26 +91,26 @@ export default function FAQPage() {
                 className="rounded-full"
               />
               <div>
-                <p className="font-semibold text-purple-900">CVIBE</p>
-                <p className="text-xs text-indigo-900">Ride the meme wave responsibly.</p>
+                <p className="font-semibold text-cyan-50/90">CVIBE</p>
+                <p className="text-xs text-cyan-50/90">Ride the meme wave responsibly.</p>
               </div>
             </div>
             <div className="flex flex-wrap items-center gap-4 text-sm">
-              <a href="/" className="text-purple-900 hover:underline underline-offset-4">
+              <a href="/" className="text-cyan-50/90 hover:underline underline-offset-4">
                 Home
               </a>
-              <a href="/tokenomics" className="text-purple-900 hover:underline underline-offset-4">
+              <a href="/tokenomics" className="text-cyan-50/90 hover:underline underline-offset-4">
                 Tokenomics
               </a>
-              <a href="/roadmap" className="text-purple-900 hover:underline underline-offset-4">
+              <a href="/roadmap" className="text-cyan-50/90 hover:underline underline-offset-4">
                 Roadmap
               </a>
-              <a href="/faq" className="text-purple-900 hover:underline underline-offset-4">
+              <a href="/faq" className="text-cyan-50/90 hover:underline underline-offset-4">
                 FAQ
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-between border-t border-purple-300/20 py-6 text-xs text-indigo-900">
+          <div className="flex items-center justify-between border-t border-purple-300/20 py-6 text-xs text-cyan-50/90">
             <p>&copy; {new Date().getFullYear()} CVIBE. All rights reserved.</p>
             <p>Made with love and ocean vibes.</p>
           </div>

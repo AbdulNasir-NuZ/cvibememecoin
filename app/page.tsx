@@ -18,8 +18,7 @@ export default function Page() {
         <CoinTravel3D
           startSelector="#intro"
           endSelector="footer"
-          
-          coinImage="/placeholder.svg?height=200&width=200&text=CVIBE+Logo"
+          coinImage="/images/cvibecoin.png"
         />
 
         {/* Hero - Page 1 - CONSISTENT HEADING STYLE */}
@@ -39,8 +38,9 @@ export default function Page() {
             </div>
 
             <p className="mt-6 max-w-2xl mx-auto text-lg text-cyan-50/90 leading-relaxed">
-              CVIBE is a community-driven token celebrating good vibes, decentralization, and ocean-sized memes. Built
-              for speed, fairness, and fun—optimized for the next generation.
+              CVIBE is a community-driven token celebrating good vibes,
+              decentralization, and ocean sized memes. Built for speed,
+              fairness, and fun optimized for the next generation.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row justify-center">
               <Button3D href="#how-to-buy" color="purple">
@@ -60,31 +60,46 @@ export default function Page() {
           <div className="grid items-center gap-12 md:grid-cols-2">
             <div className="md:order-1">
               <p className="text-lg text-cyan-50/90 leading-relaxed">
-                CVIBE token is a next-gen meme coin engineered for virality, speed, and community rewards. Crafted with
-                modern token standards, transparent tokenomics, and zero team dump mechanics, it&apos;s designed for
-                long-term waves—not ripples.
+                CVIBE token is a next-gen meme coin engineered for virality,
+                speed, and community rewards. Crafted with modern token
+                standards, transparent tokenomics, and zero team dump mechanics,
+                it&apos;s designed for long-term waves not ripples.
               </p>
               <ul className="mt-8 space-y-4 text-base">
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 inline-block h-2 w-2 rounded-full bg-cyan-400" aria-hidden="true" />
+                  <span
+                    className="mt-2 inline-block h-2 w-2 rounded-full bg-cyan-400"
+                    aria-hidden="true"
+                  />
                   <span className="text-cyan-50/90">
-                    Fair launch, LP locked, and renounced mint—community first from day one.
+                    Fair launch, LP locked, and renounced mint community first
+                    from day one.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 inline-block h-2 w-2 rounded-full bg-cyan-400" aria-hidden="true" />
-                  <span className="text-cyan-50/90">Optimized contract for low gas and high throughput.</span>
+                  <span
+                    className="mt-2 inline-block h-2 w-2 rounded-full bg-cyan-400"
+                    aria-hidden="true"
+                  />
+                  <span className="text-cyan-50/90">
+                    Optimized contract for low gas and high throughput.
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-2 inline-block h-2 w-2 rounded-full bg-cyan-400" aria-hidden="true" />
-                  <span className="text-cyan-50/90">Rewards, quests, and viral-friendly referral drops.</span>
+                  <span
+                    className="mt-2 inline-block h-2 w-2 rounded-full bg-cyan-400"
+                    aria-hidden="true"
+                  />
+                  <span className="text-cyan-50/90">
+                    Rewards, quests, and viral-friendly referral drops.
+                  </span>
                 </li>
               </ul>
             </div>
             <div className="md:order-2">
               {/* This is the image where the traveling 3D coin starts from its center */}
               <Image
-                src="/images/coinmeme.png"
+                src="/images/coinmeme.jpg"
                 width={560}
                 height={480}
                 alt="CVIBE Visual"
@@ -103,17 +118,20 @@ export default function Page() {
           <div className="grid gap-8 md:grid-cols-3">
             <GlassCard title="Vision">
               <span className="text-cyan-50/90">
-                Empower a global beach-loving community to co-create culture. Fun, transparent, and unstoppable.
+                Empower a global beach loving community to co-create culture.
+                Fun, transparent, and unstoppable.
               </span>
             </GlassCard>
             <GlassCard title="Tokenomics">
               <span className="text-cyan-50/90">
-                1,000,000,000 supply • 0% tax • LP locked • No presale • Renounced mint. Simple. Fair. Clean.
+                1,000,000,000 supply • 0% tax • LP locked • No presale •
+                Renounced mint. Simple. Fair. Clean.
               </span>
             </GlassCard>
             <GlassCard title="Chain">
               <span className="text-cyan-50/90">
-                Deployed on a fast, low-fee L1/L2. Verified contract and open analytics for full transparency.
+                Deployed on a fast, low-fee L1/L2. Verified contract and open
+                analytics for full transparency.
               </span>
             </GlassCard>
           </div>
@@ -128,19 +146,20 @@ export default function Page() {
           <div className="grid gap-8 md:grid-cols-3">
             <GlassCard title="1. Get a Wallet">
               <span className="text-cyan-50/90">
-                Install a crypto wallet like MetaMask or Phantom. Create a new wallet and back up your seed phrase
-                securely.
+                Install a crypto wallet like MetaMask or Phantom. Create a new
+                wallet and back up your seed phrase securely.
               </span>
             </GlassCard>
             <GlassCard title="2. Fund & Select Network">
               <span className="text-cyan-50/90">
-                Purchase or transfer the base token (e.g., ETH/SOL/BNB) to your wallet on the correct network.
+                Purchase or transfer the base token (e.g., ETH/SOL/BNB) to your
+                wallet on the correct network.
               </span>
             </GlassCard>
             <GlassCard title="3. Swap for CVIBE">
               <span className="text-cyan-50/90">
-                Open a DEX (Uniswap/PancakeSwap/Raydium), paste our contract address, select slippage if needed, and
-                swap.
+                Open a DEX (Uniswap/PancakeSwap/Raydium), paste our contract
+                address, select slippage if needed, and swap.
               </span>
             </GlassCard>
           </div>
@@ -160,22 +179,34 @@ export default function Page() {
           </div>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <GlassCard title="Fair Launch">
-              <span className="text-cyan-50/90">No presales or team allocations. Everyone surfs the same wave.</span>
+              <span className="text-cyan-50/90">
+                No presales or team allocations. Everyone surfs the same wave.
+              </span>
             </GlassCard>
             <GlassCard title="Security First">
-              <span className="text-cyan-50/90">Audited contract, LP locked, and transparent analytics.</span>
+              <span className="text-cyan-50/90">
+                Audited contract, LP locked, and transparent analytics.
+              </span>
             </GlassCard>
             <GlassCard title="Low Fees">
-              <span className="text-cyan-50/90">Gas-optimized contract means more memes and fewer fees.</span>
+              <span className="text-cyan-50/90">
+                Gas-optimized contract means more memes and fewer fees.
+              </span>
             </GlassCard>
             <GlassCard title="Community Rewards">
-              <span className="text-cyan-50/90">Quests, drops, and incentives for active contributors.</span>
+              <span className="text-cyan-50/90">
+                Quests, drops, and incentives for active contributors.
+              </span>
             </GlassCard>
             <GlassCard title="Partnerships">
-              <span className="text-cyan-50/90">Collaborations with brands, artists, and communities.</span>
+              <span className="text-cyan-50/90">
+                Collaborations with brands, artists, and communities.
+              </span>
             </GlassCard>
             <GlassCard title="Open & Transparent">
-              <span className="text-cyan-50/90">Open-source and clear roadmap with governance.</span>
+              <span className="text-cyan-50/90">
+                Open-source and clear roadmap with governance.
+              </span>
             </GlassCard>
           </div>
         </SectionWrapper>
@@ -191,7 +222,8 @@ export default function Page() {
               <GlassCard title="Connect & Share">
                 <div className="text-cyan-50/90">
                   <p className="mb-6">
-                    Join the CVIBE fam: memes, builders, creators, and longboarders riding the same wave.
+                    Join the CVIBE fam: memes, builders, creators, and
+                    longboarders riding the same wave.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <a
@@ -220,7 +252,8 @@ export default function Page() {
               <GlassCard title="Stay Updated">
                 <div className="text-cyan-50/90">
                   <p className="mb-6">
-                    Share memes, propose ideas, help new surfers get onboarded, and vote on community initiatives.
+                    Share memes, propose ideas, help new surfers get onboarded,
+                    and vote on community initiatives.
                   </p>
                   <div>
                     <Button3D href="/community" color="purple">
@@ -241,7 +274,7 @@ export default function Page() {
           <div className="container px-4 md:px-6">
             <div className="py-8">
               {/* BIG ROTATING COIN - SAME ENDING POSITION */}
-              <FooterCoin3D coinImage="/placeholder.svg?height=200&width=200&text=CVIBE+Logo" />
+              <FooterCoin3D coinImage="/images/cvibecoin.png" />
             </div>
             <div className="flex flex-col gap-6 py-10 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-3">
@@ -254,7 +287,9 @@ export default function Page() {
                 />
                 <div>
                   <p className="font-semibold text-cyan-100">CVIBE</p>
-                  <p className="text-xs text-cyan-200/80">Ride the meme wave responsibly.</p>
+                  <p className="text-xs text-cyan-200/80">
+                    Ride the meme wave responsibly.
+                  </p>
                 </div>
               </div>
               <div className="flex flex-wrap items-center gap-4 text-sm">
@@ -297,12 +332,14 @@ export default function Page() {
               </div>
             </div>
             <div className="flex items-center justify-between border-t border-cyan-300/20 py-6 text-xs text-cyan-200/80">
-              <p>&copy; {new Date().getFullYear()} CVIBE. All rights reserved.</p>
-              <p>Made with love and ocean vibes.</p>
+              <p>
+                &copy; {new Date().getFullYear()} cre8tar. All rights reserved.
+              </p>
+              <p>Made for Fun and ocean vibes.</p>
             </div>
           </div>
         </footer>
       </main>
     </AppProviders>
-  )
+  );
 }
